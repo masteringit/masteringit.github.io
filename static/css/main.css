@@ -93,3 +93,7 @@
 .btn:hover {
   background-color: coral;
 }
+
+.freebirdFormviewerViewCenteredContent {
+  width: 100vw!important;
+}
