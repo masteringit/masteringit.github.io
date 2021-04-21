@@ -8,7 +8,13 @@
     <title>Mastering IT 15th - 2021</title>
     <link rel="icon" href="images/mit.png">
     <link href="static/css/bootstrap.min.css" rel="stylesheet">
-    <link href="static/css/main.css" rel="stylesheet"> 
+    <link href="static/css/main.css" rel="stylesheet">
+    <style>
+        .freebirdFormviewerViewCenteredContent {
+            width: 100vw !important;
+            margin: 10px !important;
+        }
+    </style>
 </head>
 
 <body>
@@ -18,11 +24,11 @@
             <a class="py-2" href="#Home" aria-label="Home">
                 <img src="images/mit.png" alt="MIT" width="32px" height="32px">
             </a>
-            <a class="py-2 d-none d-md-inline-block btn btn-light" href="#Overview">GIỚI THIỆU</a>
-            <a class="py-2 d-none d-md-inline-block btn btn-light" href="#Photos">HÌNH ẢNH</a>
-            <a class="py-2 d-none d-md-inline-block btn btn-light" href="#Register">ĐĂNG KÝ</a>
-            <a class="py-2 d-none d-md-inline-block btn btn-light" href="#Round1">VÒNG LOẠI</a>
-            <a class="py-2 d-none d-md-inline-block btn btn-light" href="#About">VỀ CHÚNG TÔI</a>
+            <a class="py-2 d-none d-md-inline-block btn btn-light fw-bold" href="#Overview">GIỚI THIỆU</a>
+            <a class="py-2 d-none d-md-inline-block btn btn-light fw-bold" href="#Photos">HÌNH ẢNH</a>
+            <a class="py-2 d-none d-md-inline-block btn btn-light fw-bold" href="#Register">ĐĂNG KÝ</a>
+            <a class="py-2 d-none d-md-inline-block btn btn-light fw-bold" href="#Round1">VÒNG LOẠI</a>
+            <a class="py-2 d-none d-md-inline-block btn btn-light fw-bold" href="#About">VỀ CHÚNG TÔI</a>
         </nav>
     </header>
 
@@ -30,7 +36,7 @@
         <div id="Overview" class="position-relative overflow-hidden p-3 p-md-5 text-center bg-light fullscreen">
             <div class="p-lg-5 mx-auto center_vertical">
                 <p class="lead fw-normal fw-bold display-6">Cuộc thi học thuật truyền thống</p>
-                <h1 class="display-4 fw-normal fw-bolder">MASTERING IT 15th - 2021</h1>
+                <h1 class="display-4 fw-bolder">MASTERING IT 15th - 2021</h1>
                 <p class="lead fw-normal">Khoa Công nghệ Thông tin</p>
                 <p class="lead fw-normal">TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT TPHCM</p>
                 <a class="btn btn-outline-secondary" href="#Register">Đăng ký thi ngay</a>
@@ -40,47 +46,82 @@
         </div>
 
         <div id="Photos" class="d-md-flex flex-md-equal w-100 fullscreen">
-            <div class="bg-light text-center text-white overflow-hidden">
-                <div class="my-3 py-3">
-                    <h2 class="display-5 text-danger fw-bolder">Đăng ký</h2>
-                    <p class="lead text-warning fw-bold">Đăng ký trực bàn.</p>
+            <div class="bg-light pt-3 px-3 pt-md-5 text-center text-white overflow-hidden">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/background/bg_00.JPG" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/background/bg_01.JPG" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/background/bg_02.JPG" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjALiJL3-vNDaCYAZSTsE01yD5pwGQwivA71rMR9itfeU9fA/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" style="width:100vw!important;height: 100vh!important;">Đang tải…</iframe>
             </div>
         </div>
-
-        <div id="Photos" class="d-md-flex flex-md-equal w-100 fullscreen">
-            <div class="bg-light pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-                <div class="my-3 py-3">
-                    <h2 class="display-5 text-danger fw-bolder">Hình ảnh</h2>
-                    <p class="lead text-warning fw-bold">Các hình ảnh về cuộc thi.</p>
-                </div>
-                <div class="bg-light shadow-sm mx-auto"
-                    style="width: 90%; height: 100%; border-radius: 21px 21px 0 0;"></div>
-            </div>
         </div>
 
         <div id="Register" class="d-md-flex flex-md-equal w-100 fullscreen">
-            <div class="bg-light pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-                <div class="my-3 py-3">
-                    <h2 class="display-5 text-danger fw-bolder">Đăng ký</h2>
-                    <p class="lead text-warning fw-bold">Cùng lập team và đăng ký thi ngay từ bây giờ để có cơ hội được thử sức và thể hiện tài năng tại Mastering IT lần thứ 15 - 2021.</p>
+            <div class="bg-light pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden center_vertical">
+                <div class="bg-body shadow-sm mx-auto"
+                    style="width: 90%; height: 90vh; border-radius: 20px 20px 20px 20px;">
+                    <div class="my-3 py-3">
+                        <h2 class="display-5 text-danger fw-bolder">Đăng ký</h2>
+                        <p class="lead text-warning fw-bold">Cùng lập team và đăng ký thi ngay từ bây giờ để có cơ hội
+                            được
+                            thử sức và thể hiện tài năng tại Mastering IT lần thứ 15 - 2021.</p>
+                    </div>
+                    <a class="btn btn-danger" target="_blank"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSdyF2QTKFGscK-41sqXgWu2s_B-nd4uNxY5xaYnjqZg7HX9Ig/viewform?usp=sf_link">Đăng
+                        ký</a>
                 </div>
-                <div class="bg-light shadow-sm mx-auto"
-                    style="width: 90%; height: 100%; border-radius: 21px 21px 0 0;"></div>
             </div>
         </div>
 
         <div id="Round1" class="d-md-flex flex-md-equal w-100 fullscreen">
-            <div class="bg-light pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden" >
+            <div class="bg-light pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
                 <div class="my-3 py-3">
                     <h2 class="display-5 text-danger fw-bolder">Vòng loại</h2>
-                    <p class="lead text-warning fw-bold">Sẵn sàng bước vào vòng loại của cuộc thi Mastering IT lần thứ 15 - năm 2021...</p>
+                    <p class="lead text-warning fw-bold">Sẵn sàng bước vào vòng loại của cuộc thi Mastering IT lần thứ
+                        15 - năm 2021...</p>
                 </div>
-                <div class="bg-light shadow-sm mx-auto"
-                    style="width: 90%; height: 100%; border-radius: 21px 21px 0 0;"></div>
+                <div class="bg-light shadow-sm mx-auto" style="width: 90%; height: 100%; border-radius: 21px 21px 0 0;">
+                </div>
             </div>
-        </div>   
+        </div>
     </main>
 
     <footer id="About" class="py-5" style="margin: 5vh!important;">
@@ -93,38 +134,44 @@
                 <h5 class="text-center">Ban tổ chức</h5>
                 <ul class="list-unstyled text-small list-inline d-flex justify-content-center">
                     <li>
-                        <img src="images/hcmute.png" alt="HCMUTE" height="64px"/>
-                        <img src="images/fit.png" alt="FIT" height="64px"/>
-                        <img src="images/dtn.png" alt="DTN" height="64px"/>
-                        <img src="images/hsv.png" alt="HSV" height="64px"/>
+                        <img src="images/hcmute.png" alt="HCMUTE" height="64px" />
+                        <img src="images/fit.png" alt="FIT" height="64px" />
+                        <img src="images/dtn.png" alt="DTN" height="64px" />
+                        <img src="images/hsv.png" alt="HSV" height="64px" />
                     </li>
                 </ul>
             </div>
             <div class="col-6 col-md">
                 <h5 class="text-center">Truyền thông</h5>
                 <ul class="list-unstyled text-small list-inline d-flex justify-content-center">
-                    <li><img src="images/mfit.png" alt="Ban truyền thông Khoa Công nghệ Thông tin" height="64px"/></li>
+                    <li><img src="images/mfit.png" alt="Ban truyền thông Khoa Công nghệ Thông tin" height="64px" /></li>
                 </ul>
             </div>
             <div class="col-6 col-md">
                 <h5 class="text-center">Liên hệ</h5>
                 <ul class="list-unstyled text-small list-inline d-flex justify-content-center">
                     <li class="list-inline-item">
-                        <a class="link-secondary" href="https://www.facebook.com/DoanHoiITUTE"><img src="https://img.icons8.com/color/64/000000/facebook.png"/></a>
-                        <a class="link-secondary" href="mailto:yit@hcmute.edu.vn"><img src="https://img.icons8.com/color/64/000000/gmail--v1.png"/></a>
+                        <a class="link-secondary" href="https://www.facebook.com/DoanHoiITUTE"><img
+                                src="https://img.icons8.com/color/64/000000/facebook.png" /></a>
+                        <a class="link-secondary" href="mailto:yit@hcmute.edu.vn"><img
+                                src="https://img.icons8.com/color/64/000000/gmail--v1.png" /></a>
                     </li>
                 </ul>
             </div>
             <div class="col-6 col-md">
                 <h5 class="text-center">Nhà tài trợ</h5>
                 <ul class="list-unstyled text-small list-inline d-flex justify-content-center">
-                    <li><a class="link-secondary" href="#">Team</a></li>
+                    <li>
+                        <a class="link-secondary" href="mailto:yit@hcmute.edu.vn"><img
+                                src="https://img.icons8.com/cotton/64/000000/crowdfunding--v2.png" /></a>
+                    </li>
                 </ul>
             </div>
         </div>
     </footer>
 
-    <script src="static/js/bootstrap.bundle.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/jquery-3.6.0.min.js"></script>
 
 </body>
 
