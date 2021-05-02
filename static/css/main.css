@@ -115,6 +115,13 @@
   .fullscreen {
     /* height: 100vh!important; */
   }
+  .logo-mit-footer {
+    height: 50px;
+    width: 50px;
+  }
+  .logo-footer {
+    height: 32px;
+  }
 }
 /*Tablet nhỏ(480 x 640)*/
 @media screen and (min-width: 480px){
