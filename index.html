@@ -14,17 +14,50 @@
 <body>
     <div class="container-fluid">
         <header class="bg-light sticky-top py-1">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" aria-label="Fifth navbar example">
+                <div class="container-fluid">
+                    <a class="py-2" href="#Home" aria-label="Home">
+                        <img src="images/logo/mit-min.png" alt="MIT" width="32px" height="32px">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#menu" aria-controls="menu" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="menu">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="history" data-bs-toggle="dropdown"
+                                    aria-expanded="false">History</a>
+                                <ul class="dropdown-menu" aria-labelledby="history">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- <form>
+                            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                        </form> -->
+                    </div>
+                </div>
+            </nav>
+
+            <!-- 
             <nav class="container d-flex flex-column flex-md-row justify-content-between">
-                <a class="py-2" href="#Home" aria-label="Home">
-                    <img src="images/logo/mit-min.png" alt="MIT" width="32px" height="32px">
-                </a>
+                
                 <a class="py-2 d-none d-md-inline-block btn btn-light fw-bold" href="#Home">GIỚI THIỆU</a>
                 <a class="py-2 d-none d-md-inline-block btn btn-light fw-bold" href="#Photos">HÌNH ẢNH</a>
                 <a class="py-2 d-none d-md-inline-block btn btn-light fw-bold"
                     href="https://forms.gle/5SaFUQE9LqKCby2D9" target="_blank">ĐĂNG KÝ</a>
                 <a class="py-2 d-none d-md-inline-block btn btn-light fw-bold" href="#Round1">VÒNG LOẠI</a>
                 <a class="py-2 d-none d-md-inline-block btn btn-light fw-bold" href="#About">VỀ CHÚNG TÔI</a>
-            </nav>
+            </nav> -->
         </header>
 
         <main>
@@ -173,7 +206,8 @@
                 <div class="col-4 col-md text-center">
                     <h6>Truyền thông</h6>
                     <ul class="list-unstyled text-small list-inline d-flex justify-content-center">
-                        <li><img src="images/logo/mfit.png" alt="Ban truyền thông Khoa Công nghệ Thông tin" height="48px" />
+                        <li><img src="images/logo/mfit.png" alt="Ban truyền thông Khoa Công nghệ Thông tin"
+                                height="48px" />
                         </li>
                     </ul>
                 </div>
