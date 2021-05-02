@@ -125,13 +125,7 @@
 }
 /*Tablet nhỏ(480 x 640)*/
 @media screen and (min-width: 480px){
-  .center_image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height:92vh; 
-    width: 100%;
-  }
+  
 }
 /*Ipad dọc(768 x 1024)*/
 @media screen and (min-width: 768px){
@@ -140,6 +134,40 @@
   }
   .flex-md-equal > * {
     flex: 1;
+  }
+
+  .center_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:92vh; 
+    width: 100%;
+  }
+  .right_poster {
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+    margin-left: 40vw!important;
+  }
+  .text-block {
+    padding: 20px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(214, 203, 203, 0.411);
+    /* color: white; */
+  }
+  .carousel-item {
+    height: 92vh!important;
+  }
+  .fullscreen {
+    height: 100vh!important;
+  }
+  .logo-mit-footer {
+    height: 50px;
+    width: 50px;
+  }
+  .logo-footer {
+    height: 32px;
   }
 }
 /*Ipad ngang(1024 x 768)*/
