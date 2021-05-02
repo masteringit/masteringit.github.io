@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vòng loại</title>
+    <link rel="icon" href="images/mit-min.png">
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <script type="text/javascript">var submitted = false;</script>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+        onload="if(submitted)  {window.location='index.html';}">
+    </iframe>
+    <a href="#email">Câu 1</a> - <a href="#MSSV">Câu 2</a> - <a href="#FullName">Câu 3</a> - <a href="#team">Câu 4</a> - <a href="#Q5">Câu 5</a> - <a href="#Q6">Câu 6</a>
+    <form
+        action="https://docs.google.com/forms/u/3/d/e/1FAIpQLSerJ2mxGjild_Bg2lxsRjMav3yXOouDAZ5whe9vObzd3rdwlQ/formResponse"
+        target="hidden_iframe" onsubmit="submitted=true;" method="POST">
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="entry.107666119">
+        </div>
+
+        <div>
+            <label for="MSSV">MSSV:</label>
+            <input type="number" id="MSSV" name="entry.1503602674">
+        </div>
+
+        <div>
+            <label for="FullName">Họ tên:</label>
+            <input type="text" id="FullName" name="entry.188840677">
+        </div>
+
+        <div>
+            <span>Team</span>
+            <select name="entry.2040196078" id="team">
+                <option value="Khác">Khác</option>
+                <option value="MIT">MIT</option>
+                <option value="beCod3r">beCod3r</option>
+                <option value="DeV">DeV</option>
+            </select>
+        </div>
+
+        <div>
+            <img src="https://img.icons8.com/color/64/000000/facebook.png" />
+            <label id="Q5">Đâu là tên một ngôn ngữ lập trình?</label>
+            <div class="form-check">
+                <label class="form-check-label" for="A">
+                    <input class="form-check-input" type="radio" id="01A" name="entry.1670500735" value="Anaconda">
+                    <span>Anaconda</span>
+                </label>
+            </div>
+
+            <div class="form-check">
+                <label class="form-check-label" for="B">
+                    <input class="form-check-input" type="radio" id="01B" name="entry.1670500735" value="Flask">
+                    <span>Flask</span>
+                </label>
+            </div>
+
+            <div class="form-check">
+                <label class="form-check-label" for="C">
+                    <input class="form-check-input" type="radio" id="01C" name="entry.1670500735" value="Keras">
+                    <span>Keras</span>
+                </label>
+            </div>
+
+            <div class="form-check">
+                <label class="form-check-label" for="D">
+                    <input class="form-check-input" type="radio" id="01D" name="entry.1670500735" value="Python">
+                    <span>Python</span>
+                </label>
+            </div>
+        </div>
+
+        <div>
+            <img src="https://img.icons8.com/color/64/000000/facebook.png" />
+            <label id="Q6">Ai là nhà đồng sáng lập ra Facebook?</label>
+            <div class="form-check">
+                <label class="form-check-label" for="A">
+                    <input class="form-check-input" type="radio" id="02A" name="entry.1661362603"
+                        value="Mark Zuckerberg">
+                    <span>Mark Zuckerberg</span>
+                </label>
+            </div>
+
+            <div class="form-check">
+                <label class="form-check-label" for="B">
+                    <input class="form-check-input" type="radio" id="02B" name="entry.1661362603" value="Bill Gates">
+                    <span>Bill Gates</span>
+                </label>
+            </div>
+
+            <div class="form-check">
+                <label class="form-check-label" for="C">
+                    <input class="form-check-input" type="radio" id="02C" name="entry.1661362603" value="Jack Ma">
+                    <span>Jack Ma</span>
+                </label>
+            </div>
+
+            <div class="form-check">
+                <label class="form-check-label" for="D">
+                    <input class="form-check-input" type="radio" id="02D" name="entry.1661362603" value="D">
+                    <span>Jeff Bezos</span>
+                </label>
+            </div>
+        </div>
+
+        <input type="submit" value="SUBMIT">
+    </form>
+</body>
+
+</html>
