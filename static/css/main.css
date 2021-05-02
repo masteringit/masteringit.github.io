@@ -163,11 +163,15 @@
     height: 100vh!important;
   }
   .logo-mit-footer {
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
   }
   .logo-footer {
-    height: 32px;
+    height: 48px;
+  }
+  .bg-main {
+    margin-top: -8vh;
+    height: 90vh;
   }
 }
 /*Ipad ngang(1024 x 768)*/
