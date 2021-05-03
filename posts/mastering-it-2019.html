@@ -14,30 +14,30 @@
 <body>
     <div class="container-fluid">
         <header class="bg-light sticky-top py-1">
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
                 <div class="container-fluid">
-                    <a class="py-2" href="#Home" aria-label="Home">
+                    <a class="py-2 navbar-brand d-flex w-50 me-auto" href="../index.html" aria-label="Home">
                         <img src="../images/logo/mit-min.png" alt="MIT" width="32px" height="32px">
                     </a>
 
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
-                        aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
-                    <div class="collapse navbar-collapse" id="menu">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <div class="navbar-collapse collapse w-100" id="menu">
+                        <ul class="navbar-nav w-100 justify-content-center">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="../index.html">TRANG CHỦ</a>
+                                <a class="nav-link active fw-bolder btn btn-danger text-light" href="https://forms.gle/5SaFUQE9LqKCby2D9" target="_blank">ĐĂNG KÝ</a>
                             </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://forms.gle/5SaFUQE9LqKCby2D9" target="_blank">ĐĂNG
-                                    KÝ</a>
-                            </li>
-
+                        </ul>
+                        <ul class="nav navbar-nav ms-auto w-100 justify-content-end">
+                            <!-- <li class="nav-item">
+                                <form>
+                                    <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                                </form>
+                            </li> -->
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="history" data-bs-toggle="dropdown"
+                                <a class="nav-link dropdown-toggle fw-bolder" href="#" id="history" data-bs-toggle="dropdown"
                                     aria-expanded="false">LỊCH SỬ</a>
                                 <ul class="dropdown-menu bg-light" aria-labelledby="history">
                                     <li><a class="dropdown-item" href="posts/mastering-it-2016.html">MIT 2016</a></li>
@@ -46,14 +46,10 @@
                                     <li><a class="dropdown-item" href="posts/mastering-it-2019.html">MIT 2019</a></li>
                                 </ul>
                             </li>
-
                             <li class="nav-item">
-                                <a class="nav-link" href="#About">VỀ CHÚNG TÔI</a>
+                                <a class="nav-link fw-bolder" href="#About">VỀ CHÚNG TÔI</a>
                             </li>
                         </ul>
-                        <!-- <form>
-                            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-                        </form> -->
                     </div>
                 </div>
             </nav>
