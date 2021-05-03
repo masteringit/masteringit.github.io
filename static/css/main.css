@@ -85,13 +85,13 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 240px;
+    width: 100%;
   }
 }
 /*Iphone(480 x 640)*/
 @media screen and (min-width: 320px){
   .center_image {
-    display: none;
+    /* display: none; */
     /* margin-left: auto;
     margin-right: auto;
     width: 100%; */
@@ -114,6 +114,8 @@
   }
   .fullscreen {
     /* height: 100vh!important; */
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   .logo-mit-footer {
     height: 50px;
