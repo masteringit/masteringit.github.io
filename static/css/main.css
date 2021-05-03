@@ -90,12 +90,6 @@
 }
 /*Iphone(480 x 640)*/
 @media screen and (min-width: 320px){
-  .center_image {
-    /* display: none; */
-    /* margin-left: auto;
-    margin-right: auto;
-    width: 100%; */
-  }
   .right_poster {
     margin-top: 10px;
     margin-bottom: 10px;
