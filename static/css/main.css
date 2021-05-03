@@ -138,7 +138,17 @@
 }
 /*Ipad dọc(768 x 1024)*/
 @media screen and (min-width: 768px){
-  
+  .img-photo {
+    width: 100%;
+    height: 45vh;
+  }
+  .logo-mit-footer {
+    height: 100px;
+    width: 100px;
+  }
+  .logo-footer {
+    height: 48px;
+  }
 }
 /*Ipad ngang(1024 x 768)*/
 @media screen and (min-width: 1024px){
@@ -178,18 +188,7 @@
   .fullscreen {
     height: 100vh!important;
   }
-  .logo-mit-footer {
-    height: 100px;
-    width: 100px;
-  }
-  .logo-footer {
-    height: 48px;
-  }
   .bg-main {
     height: 90vh;
-  }
-  .img-photo {
-    width: 100%;
-    height: 45vh;
   }
 }
