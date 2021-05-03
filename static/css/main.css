@@ -142,6 +142,9 @@
 }
 /*Ipad ngang(1024 x 768)*/
 @media screen and (min-width: 1024px){
+}
+
+@media screen and (min-width: 1280px){
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
