@@ -9,11 +9,6 @@
   padding: 10px;
 }
 
-.content {
-  padding-left: 10vw; 
-  padding-right: 10vw;
-}
-
 /*
    * Custom translucent site header
    */
@@ -109,6 +104,10 @@
     width: 100%;
     height: 100%;
   }
+  .content {
+    padding-left: 1vw; 
+    padding-right: 1vw;
+  }
 }
 /*Iphone(480 x 640)*/
 @media screen and (min-width: 320px){
@@ -147,6 +146,7 @@
     width: 100%;
     height: 100%;
   }
+  
 }
 /*Tablet nhỏ(480 x 640)*/
 @media screen and (min-width: 480px){
@@ -164,6 +164,10 @@
   }
   .logo-footer {
     height: 48px;
+  }
+  .content {
+    padding-left: 4vw; 
+    padding-right: 4vw;
   }
 }
 /*Ipad ngang(1024 x 768)*/
@@ -206,6 +210,10 @@
   }
   .bg-main {
     height: 90vh;
+  }
+  .content {
+    padding-left: 10vw; 
+    padding-right: 10vw;
   }
 }
 
