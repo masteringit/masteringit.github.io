@@ -105,6 +105,10 @@
     margin-right: auto;
     width: 100%;
   }
+  .bg-main {
+    width: 100%;
+    height: 100%;
+  }
 }
 /*Iphone(480 x 640)*/
 @media screen and (min-width: 320px){
