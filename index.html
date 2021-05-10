@@ -61,7 +61,7 @@
                 <div class="row">
                     <div class="col-sm-12 col-lg-12 mb-12">
                         <div class="card border-light">
-                            <img src="../images/background/mit-2021.png" loading="lazy" class="card-img-top bg-main" />
+                            <img src="../images/background/mit-2021-updated.png" loading="lazy" class="card-img-top bg-main" />
                             
                             <div class="text-center poster">
                                 <p class="lead fw-normal fw-bold display-6">Cuộc thi học thuật</p>
@@ -105,11 +105,10 @@
                         <h5 class="fw-bold text-center text-uppercase"> Hình thức đăng ký</h5>
                         <div class="row">
                             <div class="col-sm-12 col-lg-4 ps-5 pe-5 text-center">
-                                <div>
-                                    <a class="btn btn-danger text-light fw-bolder" 
-                                        href="https://forms.gle/5SaFUQE9LqKCby2D9" target="_blank">ĐĂNG KÝ THI NGAY</a>
+                                <div class="text-uppercase display-6 bg-warning text-light fw-bolder">
+                                    <p id="countdown"></p>
                                 </div>
-                                <br>
+                                
                                 <div>
                                     <a class="btn btn-danger text-light fw-bolder" 
                                     href="https://forms.gle/5SaFUQE9LqKCby2D9" target="_blank">ĐĂNG KÝ THI NGAY</a>
@@ -289,10 +288,10 @@
                             <p class="fw-bold">Ban tổ chức</p>
                             <ul class="list-unstyled text-small list-inline d-flex justify-content-center">
                                 <li>
-                                    <img src="images/logo/hcmute-min.png" alt="HCMUTE" height="48px" class="logo-footer"/>
-                                    <img src="images/logo/fit-min.png" alt="FIT" height="48px" class="logo-footer"/>
-                                    <img src="images/logo/dtn-min.png" alt="DTN" height="48px" class="logo-footer"/>
-                                    <img src="images/logo/hsv-min.png" alt="HSV" height="48px" class="logo-footer"/>
+                                    <img src="./images/logo/hcmute-min.png" alt="HCMUTE" height="48px" class="logo-footer"/>
+                                    <img src="./images/logo/fit-min.png" alt="FIT" height="48px" class="logo-footer"/>
+                                    <img src="./images/logo/dtn-min.png" alt="DTN" height="48px" class="logo-footer"/>
+                                    <img src="./images/logo/hsv-min.png" alt="HSV" height="48px" class="logo-footer"/>
                                 </li>
                             </ul>
                         </div>
@@ -305,11 +304,14 @@
                             <p class="fw-bold">Truyền thông</p>
                             <ul class="list-unstyled text-small list-inline d-flex justify-content-center">
                                 <li>
-                                    <img src="http://graph.facebook.com/1453720424858441/picture?type=small" alt="..."
-                                    height="48px" class="logo-footer" style="border-radius: 50%;"/>
+                                    <a href="https://www.facebook.com/DoanHoiITUTE" target="_blank">
+                                        <img src="http://graph.facebook.com/1453720424858441/picture?type=small" alt="..."
+                                    height="42px" class="logo-footer" style="border-radius: 50%;"/>
+                                    </a>
                                 </li>
+                                
                                 <li>
-                                    <img src="images/logo/mfit.png" alt="Ban truyền thông Khoa Công nghệ Thông tin"
+                                    <img src="./images/logo/mfit.png" alt="Ban truyền thông Khoa Công nghệ Thông tin"
                                         height="48px" class="logo-footer" />
                                 </li>
                             </ul>
@@ -318,8 +320,9 @@
                             <p class="fw-bold">Nhà tài trợ</p>
                             <ul class="list-unstyled text-small list-inline d-flex justify-content-center">
                                 <li>
-                                    <a class="link-secondary" href="mailto:yit@hcmute.edu.vn">
-                                        <img src="https://img.icons8.com/cotton/48/000000/crowdfunding--v2.png" class="logo-footer"/>
+                                    <a href="https://www.kms-technology.com/" target="_blank">
+                                        <img src="./images/logo/KMS-Logo-min.png" alt="KMS Technology"
+                                    height="48px" class="logo-footer" />
                                     </a>
                                 </li>
                             </ul>
@@ -343,7 +346,11 @@
         </footer>
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="static/js/bootstrap.min.js"></script>
+        <script src="./static/js/bootstrap.min.js"></script>
+        <script src="./static/js/script.js"></script>
+        <script>
+            countdown();
+        </script>
         
     </div>
 </body>
