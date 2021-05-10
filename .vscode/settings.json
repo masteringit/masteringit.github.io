@@ -1,3 +1,4 @@
 {
-    "editor.wordWrapColumn": 800000
+    "editor.wordWrapColumn": 800000,
+    "svg.preview.background": "transparent"
 }
