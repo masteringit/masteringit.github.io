@@ -28,3 +28,8 @@ function countdown(end_date="May 20, 2021 23:59:59") {
         }
     }, 1000);
 }
+
+function hideModal()
+{
+    $('#notifyModal').modal('hide');
+}
